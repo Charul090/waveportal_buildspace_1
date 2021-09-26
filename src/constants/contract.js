@@ -1,5 +1,5 @@
 const contract = {
-  waves: '0x6E0266174D764b49761Deb19621D2a3A7696d310'
+  waves: '0xD7237ED3190f4E49054a0d950131D896f87Ca51e'
 };
 
 export default contract;
