@@ -30,5 +30,15 @@
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  
+}
+
+.input-field {
+  margin-top: 16px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.list {
+  margin: 30px auto;
+  width: 60%;
 }
