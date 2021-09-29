@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/waveportal_buildspace_1/precache-manifest.6614754ced14c283b26a2a8af4fbe243.js"
+  "/waveportal_buildspace_1/precache-manifest.101a0d79e8879d92adcf7b1be4370a56.js"
 );
 
 self.addEventListener('message', (event) => {

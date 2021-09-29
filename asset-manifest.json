@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/waveportal_buildspace_1/static/css/main.5bd904de.chunk.css",
-    "main.js": "/waveportal_buildspace_1/static/js/main.eb2c812f.chunk.js",
-    "main.js.map": "/waveportal_buildspace_1/static/js/main.eb2c812f.chunk.js.map",
-    "runtime-main.js": "/waveportal_buildspace_1/static/js/runtime-main.39c96c0b.js",
-    "runtime-main.js.map": "/waveportal_buildspace_1/static/js/runtime-main.39c96c0b.js.map",
-    "static/js/2.886c22a7.chunk.js": "/waveportal_buildspace_1/static/js/2.886c22a7.chunk.js",
-    "static/js/2.886c22a7.chunk.js.map": "/waveportal_buildspace_1/static/js/2.886c22a7.chunk.js.map",
-    "static/js/3.cd7e1c1c.chunk.js": "/waveportal_buildspace_1/static/js/3.cd7e1c1c.chunk.js",
-    "static/js/3.cd7e1c1c.chunk.js.map": "/waveportal_buildspace_1/static/js/3.cd7e1c1c.chunk.js.map",
-    "static/js/4.b7c05e54.chunk.js": "/waveportal_buildspace_1/static/js/4.b7c05e54.chunk.js",
-    "static/js/4.b7c05e54.chunk.js.map": "/waveportal_buildspace_1/static/js/4.b7c05e54.chunk.js.map",
-    "static/js/5.55c993c9.chunk.js": "/waveportal_buildspace_1/static/js/5.55c993c9.chunk.js",
-    "static/js/5.55c993c9.chunk.js.map": "/waveportal_buildspace_1/static/js/5.55c993c9.chunk.js.map",
+    "main.js": "/waveportal_buildspace_1/static/js/main.2896734c.chunk.js",
+    "main.js.map": "/waveportal_buildspace_1/static/js/main.2896734c.chunk.js.map",
+    "runtime-main.js": "/waveportal_buildspace_1/static/js/runtime-main.295a86d4.js",
+    "runtime-main.js.map": "/waveportal_buildspace_1/static/js/runtime-main.295a86d4.js.map",
+    "static/js/2.7fd8e510.chunk.js": "/waveportal_buildspace_1/static/js/2.7fd8e510.chunk.js",
+    "static/js/2.7fd8e510.chunk.js.map": "/waveportal_buildspace_1/static/js/2.7fd8e510.chunk.js.map",
+    "static/js/3.80aaed05.chunk.js": "/waveportal_buildspace_1/static/js/3.80aaed05.chunk.js",
+    "static/js/3.80aaed05.chunk.js.map": "/waveportal_buildspace_1/static/js/3.80aaed05.chunk.js.map",
+    "static/js/4.aed81cef.chunk.js": "/waveportal_buildspace_1/static/js/4.aed81cef.chunk.js",
+    "static/js/4.aed81cef.chunk.js.map": "/waveportal_buildspace_1/static/js/4.aed81cef.chunk.js.map",
+    "static/js/5.a3134046.chunk.js": "/waveportal_buildspace_1/static/js/5.a3134046.chunk.js",
+    "static/js/5.a3134046.chunk.js.map": "/waveportal_buildspace_1/static/js/5.a3134046.chunk.js.map",
+    "static/js/6.07746103.chunk.js": "/waveportal_buildspace_1/static/js/6.07746103.chunk.js",
+    "static/js/6.07746103.chunk.js.map": "/waveportal_buildspace_1/static/js/6.07746103.chunk.js.map",
     "index.html": "/waveportal_buildspace_1/index.html",
-    "precache-manifest.6614754ced14c283b26a2a8af4fbe243.js": "/waveportal_buildspace_1/precache-manifest.6614754ced14c283b26a2a8af4fbe243.js",
+    "precache-manifest.101a0d79e8879d92adcf7b1be4370a56.js": "/waveportal_buildspace_1/precache-manifest.101a0d79e8879d92adcf7b1be4370a56.js",
     "service-worker.js": "/waveportal_buildspace_1/service-worker.js",
     "static/css/main.5bd904de.chunk.css.map": "/waveportal_buildspace_1/static/css/main.5bd904de.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.39c96c0b.js",
-    "static/js/2.886c22a7.chunk.js",
+    "static/js/runtime-main.295a86d4.js",
+    "static/js/2.7fd8e510.chunk.js",
     "static/css/main.5bd904de.chunk.css",
-    "static/js/main.eb2c812f.chunk.js"
+    "static/js/main.2896734c.chunk.js"
   ]
 }
