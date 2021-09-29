@@ -4,12 +4,15 @@ import './App.css';
 import contract from './constants/contract.js';
 import waveportal from './utils/waveportal.json';
 import MaterialTable from "material-table";
+import useSound from "use-sound";
 
 export default function App() {
+  const url = `bell_alert_tone.mp3`;
   const [ address, setAddress] = useState('');
   const [ wished, setWellWishers ] = useState(0);
   const [ wavesList, setWavesList ] = useState([]);
   const [ message, setMessage ] = useState('');
+  const [ play ] = useSound(url);
 
   const checkWalletConnected = async () => {
     const { ethereum } = window;
@@ -69,14 +72,9 @@ export default function App() {
         await waveportalContract.getTotalWaves();
         const waveMessage = message || 'N.A';
         const waveTxn = await waveportalContract.wave(waveMessage);
-        await waveTxn.wait();
 
-        const count = await waveportalContract.getTotalWaves();
-
-        console.log(count.toNumber());
-        setWellWishers(count.toNumber());
         setMessage('');
-        getAllWaves();
+        await waveTxn.wait();
       } else {
         console.log('No wallet connected')
       }
@@ -106,6 +104,18 @@ export default function App() {
         });
   
         setWavesList(wavesList);
+
+        waveportalContract.on('NewWave', (from, timestamp, message) => {
+
+          const newWavesList = [...wavesList, {
+            address: from,
+            timestamp: new Date(timestamp * 1000).toLocaleString(),
+            message
+          }];
+          play();
+          setWavesList(newWavesList);
+          setWellWishers(newWavesList.length);
+        });
       } else {
         console.log('Metamask not connected');
       }
